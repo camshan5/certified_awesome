@@ -4,8 +4,40 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+Werkzeug = "==1.0.0"
+ipdb = "==0.12.3"
+Sphinx = "==2.4.0"
+psycopg2-binary = "==2.8.4"
+mypy = "==0.761"
+django-stubs = "==1.4.0"
+pytest = "==5.3.5"
+pytest-sugar = "==0.9.2"
+flake8 = "==3.7.9"
+coverage = "==5.0.3"
+black = "==19.10b0"
+pylint-django = "==2.0.13"
+pre-commit = "==2.0.1"
+factory-boy = "==2.12.0"
+django-debug-toolbar = "==2.2"
+django-extensions = "==2.2.8"
+django-coverage-plugin = "==1.8.0"
+pytest-django = "==3.8.0"
+
 
 [packages]
+pytz = "==2019.3"
+python-slugify = "==4.0.0"
+argon2-cffi = "==19.2.0"
+redis = "==3.4.1"
+django-environ = "==0.4.5"
+django-model-utils = "==4.0.0"
+django-allauth = "==0.41.0"
+django-crispy-forms = "==1.8.1"
+django-redis = "==4.11.0"
+djangorestframework = "==3.11.0"
+coreapi = "==2.3.3"
+Pillow = "==7.0.0"
+Django = "==3.0.3"
 
 [requires]
 python_version = "3.8"
