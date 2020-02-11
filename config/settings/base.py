@@ -42,9 +42,7 @@ LOCALE_PATHS = [ROOT_DIR.path("locale")]
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
 
-DATABASES = {
-    "default": env.db("DATABASE_URL", default="postgres:///certified_awesome")
-}
+DATABASES = {"default": env.db("DATABASE_URL", default="postgres:///certified_awesome")}
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
 
 # URLS
@@ -63,7 +61,7 @@ DJANGO_APPS = [
     "django.contrib.sites",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # "django.contrib.humanize", # Handy template tags
+    "django.contrib.humanize",
     "django.contrib.admin",
     "django.forms",
 ]
