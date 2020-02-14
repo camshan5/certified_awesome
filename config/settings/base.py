@@ -75,8 +75,9 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "certified_awesome.users.apps.UsersConfig",
-    # Your stuff: custom apps go here
+    "certified_awesome.certs.apps.CertsConfig",
 ]
+
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
